@@ -1,0 +1,73 @@
+terminal commands
+@varshitha:~$ /opt/cursor.appimage 
+in new terminal
+user@varshitha:~$ sudo systemctl status mongod
+user@varshitha:~$ sudo systemctl start mongod
+user@varshitha:~$ sudo systemctl status mongod
+
+cd malicious-link-detector/server/
+npm run dev
+
+in new terminal
+cd malicious-link-detector/
+npm run dev
+
+
+To change server port edit the port number in following files:
+src/components/dashboard/urlAnalyzer ->near link change 5003
+src/components/pages/login
+.env
+
+
+
+
+
+Safe URLs (Should return "Safe" status):
+https://www.google.com
+https://www.microsoft.com
+https://www.github.com
+https://www.amazon.com
+https://www.netflix.com
+
+Known Malicious URLs (Should return "Malicious" status):
+http://malware.testing.google.test/testing/malware.html
+http://rogue.bank.phishing.test/login.html
+http://malware.wicar.org/data/js_crypto_miner.html
+http://malware.wicar.org/data/eicar.com
+http://www.urlvoid.com/scan/goggle.com/
+
+Phishing Test URLs (Should return "Malicious" with "Phishing" threat type):
+http://fake-login.phishing-test.com/facebook
+http://banking.secure-test.com/login
+http://paypal.secure.phishing-test.com
+
+
+Malware Distribution URLs (Should return "Malicious" with "Malware" threat type):
+http://malware-test.com/download/trojan.exe
+http://test.malware-traffic.com/sample.exe
+http://malware-samples.com/ransomware.doc
+
+
+abc@example.com
+rgukt123
+
+test@example.com
+password123
+
+cd
+rgukt123
+
+rupali@gmail.com
+hello123
+
+Admin page should be only accessed by admin Shall we give separate login creditials for admin .and add Functionalities to this Automatic Scanning
+Enable automatic scanning of URLs
+
+Configure
+API Integration
+Manage API keys and endpoints
+
+Manage
+User Management
+
+Manage user access and roles 
